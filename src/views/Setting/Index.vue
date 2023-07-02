@@ -22,8 +22,8 @@
         <el-form-item label="服务器地址" prop="serverIp">
           <el-input
             v-model="configVal.serverIp"
-            :style="hideStyle"
-            placeholder="后端接口正在开发，随便填如https://10.104.1.110"
+            placeholder="后端接口正在开发，目前网站开发中"
+            value="https://10.104.1.110:80/"
           />
         </el-form-item>
       </el-form>
