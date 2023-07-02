@@ -24,7 +24,7 @@
             v-model="configVal.serverIp"
             :style="hideStyle"
             placeholder="后端接口正在开发，目前网站开发中"
-            value=""
+            value="https:10.104.1.110:80/"
           />
         </el-form-item>
       </el-form>
