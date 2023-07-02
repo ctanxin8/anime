@@ -23,8 +23,8 @@
           <el-input
             v-model="configVal.serverIp"
             :style="hideStyle"
-            placeholder="如：http://192.169.1.19:8002/"
-            default-value="http://192.169.1.19:8002/"
+            placeholder="http://10.104.1.110:80/"
+            value="http://10.104.1.110/"
           />
         </el-form-item>
       </el-form>
