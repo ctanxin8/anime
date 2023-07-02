@@ -23,7 +23,7 @@
           <el-input
             v-model="configVal.serverIp"
             :style="hideStyle"
-            placeholder="后端接口正在开发，目前网站开发中"
+            placeholder="后端接口正在开发，随便填如https://10.104.1.110"
           />
         </el-form-item>
       </el-form>
